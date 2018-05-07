@@ -1,0 +1,37 @@
+PODS:
+  - JointThirdSocial (0.0.1)
+  - UMengUShare/Core (6.4.8.2):
+    - UMengUShare/Network
+  - UMengUShare/Network (6.4.8.2)
+  - UMengUShare/Social/ReducedQQ (6.4.8.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/ReducedSina (6.4.8.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/ReducedWeChat (6.4.8.2):
+    - UMengUShare/Core
+  - UMengUShare/UI (6.4.8.2):
+    - UMengUShare/Core
+
+DEPENDENCIES:
+  - JointThirdSocial (from `git@github.com:zhangjunjiecq/JointThirdSocial.git`)
+  - UMengUShare/Social/ReducedQQ
+  - UMengUShare/Social/ReducedSina
+  - UMengUShare/Social/ReducedWeChat
+  - UMengUShare/UI
+
+EXTERNAL SOURCES:
+  JointThirdSocial:
+    :git: git@github.com:zhangjunjiecq/JointThirdSocial.git
+
+CHECKOUT OPTIONS:
+  JointThirdSocial:
+    :commit: 60f3c58c2b050a85b54a80c7efe70ebecfb6c7f7
+    :git: git@github.com:zhangjunjiecq/JointThirdSocial.git
+
+SPEC CHECKSUMS:
+  JointThirdSocial: cbdc3b0c78e48e765833874778f31446fb59afe2
+  UMengUShare: 370d180101e13ee0227ae657ab119ba97243d2b3
+
+PODFILE CHECKSUM: 391c40dfdc39899b72bc81494cbe7220a3831a31
+
+COCOAPODS: 1.4.0

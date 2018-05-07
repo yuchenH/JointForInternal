@@ -1,0 +1,13 @@
+
+platform :ios, '9.0'
+
+target 'JointForInternal' do
+  use_frameworks!
+
+pod ‘UMengUShare/UI’
+pod ‘UMengUShare/Social/ReducedWeChat'
+pod ‘UMengUShare/Social/ReducedQQ'
+pod ‘UMengUShare/Social/ReducedSina'
+pod 'JointThirdSocial',:git => 'git@github.com:zhangjunjiecq/JointThirdSocial.git'
+
+end
