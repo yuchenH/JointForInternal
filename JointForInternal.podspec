@@ -8,135 +8,39 @@
 
 Pod::Spec.new do |s|
 
-  # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  These will help people to find your library, and whilst it
-  #  can feel like a chore to fill in it's definitely to your advantage. The
-  #  summary should be tweet-length, and the description more in depth.
-  #
+  
 
   s.name         = "JointForInternal"
-  s.version      = "0.0.1"
-  s.summary      = "A short description of JointForInternal."
+  s.version      = "0.0.2"
+  s.summary      = "不写这句验证的时候会报警，烦."
 
-  # This description is used to generate tags and improve search results.
-  #   * Think: What does it do? Why did you write it? What is the focus?
-  #   * Try to keep it short, snappy and to the point.
-  #   * Write the description between the DESC delimiters below.
-  #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                    A short description of JointForInternal.
+                    不写这句验证的时候会报警，烦.贼烦
                    DESC
 
-  s.homepage     = "https://github.com/zhangjunjiecq/JointForInternal"
-  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
+  s.homepage     = "https://github.com/yuchenH/JointForInternal"
 
+  s.license      = { :type => "MIT", :file => "LICENSE" }
 
-  # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Licensing your code is important. See http://choosealicense.com for more info.
-  #  CocoaPods will detect a license file if there is a named LICENSE*
-  #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
-  #
-
-  # s.license      = "MIT (example)"
-  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
-
-
-  # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Specify the authors of the library, with email addresses. Email addresses
-  #  of the authors are extracted from the SCM log. E.g. $ git log. CocoaPods also
-  #  accepts just a name if you'd rather not provide an email address.
-  #
-  #  Specify a social_media_url where others can refer to, for example a twitter
-  #  profile URL.
-  #
 
   s.author             = { "zhangjunjiecq" => "zhangjunjie@caiqr.com" }
-  # Or just: s.author    = "zhangjunjiecq"
-  # s.authors            = { "zhangjunjiecq" => "zhangjunjie@caiqr.com" }
-  # s.social_media_url   = "http://twitter.com/zhangjunjiecq"
-
-  # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  If this Pod runs only on iOS or OS X, then specify the platform and
-  #  the deployment target. You can optionally include the target after the platform.
-  #
-
-  # s.platform     = :ios
+  
   s.platform     = :ios, "9.0"
 
-  #  When using multiple platforms
-  # s.ios.deployment_target = "5.0"
-  # s.osx.deployment_target = "10.7"
-  # s.watchos.deployment_target = "2.0"
-  # s.tvos.deployment_target = "9.0"
+  s.source       = { :git => "https://github.com/yuchenH/JointForInternal.git", :tag => "#{s.version}" }
 
 
-  # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Specify the location from where the source should be retrieved.
-  #  Supports git, hg, bzr, svn and HTTP.
-  #
+  s.source_files  = "JointForInternal/Internal/test.swift"
 
-  s.source       = { :git => "https://github.com/zhangjunjiecq/JointForInternal.git", :tag => "#{s.version}" }
-
-
-  # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  CocoaPods is smart about how it includes source code. For source files
-  #  giving a folder will include any swift, h, m, mm, c & cpp files.
-  #  For header files it will include any header in the folder.
-  #  Not including the public_header_files will make all headers public.
-  #
-
-  s.source_files  = "JointForInternal/Internal/*.swift"
-  #s.exclude_files = "Classes/Exclude"
-
-  # s.public_header_files = "Classes/**/*.h"
-
-
-  # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  A list of resources included with the Pod. These are copied into the
-  #  target bundle with a build phase script. Anything else will be cleaned.
-  #  You can preserve files from being cleaned, please don't preserve
-  #  non-essential files like tests, examples and documentation.
-  #
-
-  # s.resource  = "icon.png"
-  # s.resources = "Resources/*.png"
-
-  # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
-
-
-  # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Link your library with frameworks, or libraries. Libraries do not include
-  #  the lib prefix of their name.
-  #
-
-  # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
-
-  # s.library   = "iconv"
-  # s.libraries = "iconv", "xml2"
-
-
-  # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  If your library depends on compiler flags you can set them in the xcconfig hash
-  #  where they will only apply to your library. If you depend on other Podspecs
-  #  you can include multiple dependencies to ensure it works.
-
-  # s.requires_arc = true
-
-  # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency 'JointThirdSocial', :git => 'git@github.com:zhangjunjiecq/JointThirdSocial.git'
   s.dependency 'UMengUShare/UI'
   s.dependency 'UMengUShare/Social/ReducedWeChat'
   s.dependency 'UMengUShare/Social/ReducedQQ'
   s.dependency 'UMengUShare/Social/ReducedSina'
+  s.dependency 'JointThirdSocial'
+
+  s.vendored_frameworks = 'UMSocialCore.framework','UMSocialNetwork.framework','UShareUI.framework'
+  s.vendored_libraries = 'UMSocialLog.a','SocialQQ.a','SocialSina.a','SocialWeChat.a'
+
+  #s.xcconfig = {'USER_HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/Headers/Public/UMengUShare"'}
 
 end

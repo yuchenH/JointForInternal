@@ -1,13 +1,16 @@
 
 platform :ios, '9.0'
 
+source 'https://github.com/CocoaPods/Specs.git'
+source 'http://gitlab.caiqr.com/zhangjunjie/ExchangePodSpecs.git'
+
 target 'JointForInternal' do
   use_frameworks!
 
-pod ‘UMengUShare/UI’
-pod ‘UMengUShare/Social/ReducedWeChat'
-pod ‘UMengUShare/Social/ReducedQQ'
-pod ‘UMengUShare/Social/ReducedSina'
-pod 'JointThirdSocial',:git => 'git@github.com:zhangjunjiecq/JointThirdSocial.git'
+pod 'UMengUShare/UI'
+pod 'UMengUShare/Social/ReducedWeChat'
+pod 'UMengUShare/Social/ReducedQQ'
+pod 'UMengUShare/Social/ReducedSina'
+pod 'JointThirdSocial'
 
 end

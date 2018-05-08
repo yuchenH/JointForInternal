@@ -13,29 +13,22 @@ PODS:
     - UMengUShare/Core
 
 DEPENDENCIES:
-  - "JointThirdSocial (from `git@github.com:zhangjunjiecq/JointThirdSocial.git`)"
+  - JointThirdSocial
   - UMengUShare/Social/ReducedQQ
   - UMengUShare/Social/ReducedSina
   - UMengUShare/Social/ReducedWeChat
   - UMengUShare/UI
 
 SPEC REPOS:
+  http://gitlab.caiqr.com/zhangjunjie/ExchangePodSpecs.git:
+    - JointThirdSocial
   https://github.com/CocoaPods/Specs.git:
     - UMengUShare
 
-EXTERNAL SOURCES:
-  JointThirdSocial:
-    :git: "git@github.com:zhangjunjiecq/JointThirdSocial.git"
-
-CHECKOUT OPTIONS:
-  JointThirdSocial:
-    :commit: 60f3c58c2b050a85b54a80c7efe70ebecfb6c7f7
-    :git: "git@github.com:zhangjunjiecq/JointThirdSocial.git"
-
 SPEC CHECKSUMS:
-  JointThirdSocial: cbdc3b0c78e48e765833874778f31446fb59afe2
+  JointThirdSocial: 1bc317bd5aadc78987e1782cc0f11b597afc46df
   UMengUShare: 370d180101e13ee0227ae657ab119ba97243d2b3
 
-PODFILE CHECKSUM: 391c40dfdc39899b72bc81494cbe7220a3831a31
+PODFILE CHECKSUM: 30ec4d82dd653d8e7ba18cd03aa2c2c10a63c6f7
 
 COCOAPODS: 1.5.0
