@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   
 
   s.name         = "JointForInternal"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "不写这句验证的时候会报警，烦."
 
   s.description  = <<-DESC
