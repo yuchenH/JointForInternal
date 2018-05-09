@@ -116,7 +116,6 @@
 				3BDEF4F3209B084400672226 /* Assets.xcassets */,
 				3BDEF4F5209B084400672226 /* LaunchScreen.storyboard */,
 				3BDEF4F8209B084400672226 /* Info.plist */,
-				3BDEF51D209B0F6600672226 /* JointForInternal-Bridging-Header.h */,
 			);
 			path = JointForInternal;
 			sourceTree = "<group>";
@@ -144,6 +143,7 @@
 			children = (
 				3BDEF51B209B08B400672226 /* JLInternalJointLogonManager.swift */,
 				F5D067EB20A13DB10008D2AB /* test.swift */,
+				3BDEF51D209B0F6600672226 /* JointForInternal-Bridging-Header.h */,
 			);
 			path = Internal;
 			sourceTree = "<group>";

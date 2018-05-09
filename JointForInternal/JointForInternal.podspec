@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   
 
   s.name         = "JointForInternal"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "不写这句验证的时候会报警，烦."
 
   s.description  = <<-DESC
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/yuchenH/JointForInternal.git", :tag => "#{s.version}" }
 
 
-  s.source_files  = "JointForInternal/Internal/test.swift"
+  s.source_files  = "JointForInternal/Internal/*.{swift,h}"
 
   s.dependency 'UMengUShare/UI'
   s.dependency 'UMengUShare/Social/ReducedWeChat'
@@ -38,6 +38,9 @@ Pod::Spec.new do |s|
   s.dependency 'UMengUShare/Social/ReducedSina'
   s.dependency 'JointThirdSocial'
   s.requires_arc = true  
+
+
+
   #s.vendored_frameworks = 'UMSocialCore.framework','UMSocialNetwork.framework','UShareUI.framework'
   #s.vendored_libraries = 'UMSocialLog.a','SocialQQ.a','SocialSina.a','SocialWeChat.a'
 
