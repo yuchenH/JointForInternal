@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   
 
   s.name         = "JointForInternal"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "不写这句验证的时候会报警，烦."
 
   s.description  = <<-DESC
@@ -38,8 +38,8 @@ Pod::Spec.new do |s|
   s.dependency 'UMengUShare/Social/ReducedSina'
   s.dependency 'JointThirdSocial'
 
-  s.vendored_frameworks = 'UMSocialCore.framework','UMSocialNetwork.framework','UShareUI.framework'
-  s.vendored_libraries = 'UMSocialLog.a','SocialQQ.a','SocialSina.a','SocialWeChat.a'
+  #s.vendored_frameworks = 'UMSocialCore.framework','UMSocialNetwork.framework','UShareUI.framework'
+  #s.vendored_libraries = 'UMSocialLog.a','SocialQQ.a','SocialSina.a','SocialWeChat.a'
 
   #s.xcconfig = {'USER_HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/Headers/Public/UMengUShare"'}
 
